@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  background-color: #f2f3f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  height: 60px;
+  width: 100%;
+  background-color: #002d72;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+.left {
+  height: 60px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img {
+  height: 60px;
+  width: 25%;
+}
+.img img {
+  height: 60px;
+  width: 100%;
+}
+.btn {
+  height: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  height: 45px;
+  width: 48%;
+  border-radius: 30px;
+  font-size: 15px;
+  color: white;
+  background-color: #002d72;
+  border: 2px solid white;
+}
+.btn button i {
+  margin: 10px;
+  font-size: 22px;
+}
+.btn button:hover {
+  background-color: rgba(242, 231, 231, 0.792);
+}
+
+.slider {
+  height: 480px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: cover;
+  background-size: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-part {
+  height: 150px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card-part .card1 {
+  height: 150px;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cce0ff;
+}
+.card1 .a1 {
+  font-size: 20px;
+  color: #002d72;
+  font-weight: 700;
+}
+
+.food-part {
+  height: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food {
+  height: 20px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #002d72;
+}
+.non-food {
+  height: 20px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #002d72;
+}
+
+.food-body {
+  height: 200px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box {
+  height: 200px;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.box:nth-child(4) {
+  background-color: #0059e4;
+}
+
+.box:nth-child(5) {
+  background-color: #0059e4;
+}
+
+.box:nth-child(6) {
+  background-color: #0059e4;
+}
+
+.box .a2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #002d72;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.box .a3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.box .a4 {
+  padding-top: 20px;
+  height: 10px;
+  width: 10px;
+}
+.box .a5 {
+  padding-top: 20px;
+  height: 10px;
+  width: 10px;
+}
+
+.metro {
+  height: 450px;
+  width: 90%;
+  background-color: #ffed00;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.metro .text {
+  height: 450px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.text h1 {
+  height: 140px;
+  font-size: 45px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #002d72;
+  position: relative;
+  left: 30px;
+}
+.text p {
+  height: 70px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #002d72;
+  position: relative;
+  right: 60px;
+}
+
+.text button {
+  width: 40%;
+  height: 50px;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0059e4;
+  color: white;
+  border: none;
+  position: relative;
+  right: 100px;
+}
+.text button:hover {
+  background-color: #002d72;
+}
+
+.metro .image {
+  height: 450px;
+  width: 65%;
+  background-image: url(./images/Apply\ for\ METRO\ Card\ Hero\ Teaser.jpg);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.metro-dscription {
+  height: 200px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.metrodsc1 {
+  height: 200px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.metrodsc1 h3 {
+  color: #002d72;
+}
+.metrodsc1 p {
+  font-size: 15px;
+  color: #33435b;
+  padding-top: 5px;
+}
+
+.metrodsc1 a {
+  color: #33435b;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.metrodsc1 a:hover {
+  color: #0059e4;
+}
+
+.customer {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.part1 {
+  height: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.customer .part1 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #33435b;
+  margin: 10px;
+}
+.part1 h3 {
+  font-size: 18px;
+  color: #33435b;
+  position: relative;
+  left: 10px;
+}
+.part1 p {
+  position: relative;
+  font-size: small;
+}
+
+.part1 a i {
+  font-size: 20px;
+}
+
+.customer .part1 a:hover {
+  color: #0059e4;
+}
+#h3 {
+  position: relative;
+  top: 20px;
+  margin-bottom: 10px;
+}
+#span3 i {
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+}
+
+#para {
+  position: relative;
+  left: 10px;
+}
+.product-range {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.one {
+  height: 50px;
+  width: 90%;
+  background-color: #cce0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one p {
+  font-size: 12px;
+  color: #33435b;
+}
+.two {
+  height: 80px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.two p {
+  font-size: 14px;
+  color: #33435b;
+}
+.faq-part {
+  height: 60px;
+  width: 100%;
+  background-color: #002d72;
+  color: white;
+}
+.faq {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.faq a {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 60px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    width: 100%;
+  }
+  .left {
+    width: 70%;
+  }
+  .left .btn {
+    width: 80%;
+  }
+  .left .btn button {
+    width: 100%;
+    height: 40px;
+  }
+  .slider {
+    height: 400px;
+    width: 90%;
+  }
+
+  .food-body {
+    height: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box {
+    height: 200px;
+    width: 30%;
+    margin: 10px;
+  }
+
+  .box .a4 {
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+  .box .a5 {
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+
+  .metro {
+    height: auto;
+    width: 90%;
+    background-color: #ffed00;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .metro .text {
+    height: 200px;
+    width: 35%;
+    padding: 20px;
+  }
+  .text h1 {
+    height: 70px;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+  .text p {
+    height: 70px;
+    position: relative;
+    left: 10px;
+  }
+
+  .text button {
+    width: 100%;
+    position: relative;
+    left: 1px;
+  }
+
+  .metro .image {
+    height: 250px;
+    width: 65%;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+  }
+
+  .metro-dscription {
+    height: auto;
+    width: 90%;
+  }
+  .metrodsc1 {
+    height: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .customer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .part1 {
+    height: 300px;
+    width: 50%;
+  }
+  .one {
+    height: 100px;
+    width: 100%;
+  }
+  .two {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    left: 30px;
+  }
+  .faq-part {
+    height: 80px;
+  }
+  .faq {
+    width: 40%;
+  }
+  .faq a {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+}
